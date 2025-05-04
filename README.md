@@ -13,7 +13,7 @@ This repository aims to provide and easily runnable containerized Nvidia environ
 1. Start the X11 server on the host to enable GUI forwarding:
   
     ```
-    xhost +
+    xhost local:docker
     ```
 
 2. Create a workspace to bind mount:
